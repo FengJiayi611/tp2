@@ -1471,7 +1471,7 @@ La barre du millieu
 }
 
 .galerie .flip-card-back {
-  background-color: #b1e0f8;
+  background-color: #b3d7f0;
   color: white;
   transform: rotateY(180deg);
 }
