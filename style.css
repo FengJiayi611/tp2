@@ -1509,4 +1509,10 @@ La barre du millieu
   word-wrap: break-word;
   font-size: 1vw;
 }
+
+/* local formulaire
+--------------------------------------------- */
+.admin-rapid {
+  margin: 1%;
+}
 /*# sourceMappingURL=style.css.map */
