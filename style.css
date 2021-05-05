@@ -1515,4 +1515,17 @@ La barre du millieu
 .admin-rapid {
   margin: 1%;
 }
+
+.admin-rapid .title {
+  margin-bottom: 1%;
+}
+
+.admin-rapid .content {
+  display: block;
+  width: 500px;
+}
+
+.admin-rapid .bout {
+  margin-top: 1%;
+}
 /*# sourceMappingURL=style.css.map */

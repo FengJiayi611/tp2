@@ -65,9 +65,9 @@ get_header();
 			 <?PHP if (current_user_can('administrator')) : ?>
             <section class="admin-rapid">
                 <h3>Ajouter un article de catégorie « Nouvelles »</h3>
-                <input type="text" name="title" placeholder="Titre">
-                <textarea name="content" placeholder="Contenu" ></textarea>
-                <button id='bout-rapide'>Créer une Nouvelle</button>
+                <input class='title' type="text" name="title" placeholder="Titre">
+                <textarea class="content" name="content" placeholder="Contenu" ></textarea>
+                <button class='bout' id='bout-rapide'>Créer une Nouvelle</button>
             </section>
 			<?php endif ?>
 
