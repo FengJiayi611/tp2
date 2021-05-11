@@ -1,6 +1,13 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
 body.home{
-    background-color : fff;
-    height : 500vh;
+    background-color : #fff;
+    height : 400vh;
     width : 100vw;
     overflow-x :hidden;
 }
@@ -9,7 +16,7 @@ body.home::after{
     content: "";
     position : absolute;
     width: 100%;
-    height: 500vh;
+    height: 400vh;
     top : 0;
     bottom :0;
     left : 0;
@@ -35,23 +42,7 @@ body.home::after{
 
 } 
 
-.site-title {
 
-    font-family: $font__sitetitle ;
-    font-weight: bold;
-    font-size: clamp(1rem, #{"-0.875rem + 8.333vw"},3rem);
-    margin-bottom: 0;
-    a {
-        text-decoration: none;
-    }
-}
-
-.site-description {
-    margin-top : 0;
-    font-family: $font__sitetitle ;
-    font-weight: normal;
-    font-size: clamp(.6rem, #{"-0.875rem + 8.333vw"},1.5rem);
-}
 
 .home .entry-header {
     font-size : clamp(.6rem, #{"-0.875rem + 8.333vw"},3rem);
@@ -114,3 +105,6 @@ Liste des blocs de cours par type_de_cours
     margin: 2% 4% 2% 3%;
 }
 
+h1,h2{
+    margin-top: 80px;
+}

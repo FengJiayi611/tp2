@@ -71,7 +71,6 @@ get_header();
             </section>
 			<?php endif ?>
 
-
 			<section class="nouvelles">
 			 <!--<button id="bout_nouvelles">Dernieres Nouvelles</button>-->
 			<section></section>
@@ -81,7 +80,7 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
 
 function convertirTableau(&$tPropriété)
