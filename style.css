@@ -1,5 +1,5 @@
 /*!
-Theme Name: theme4w4
+Theme Name: Jiayi-Feng-4w4
 Theme URI: http://underscores.me/
 Author: eddy martin
 Author URI: http://referenced.ca
@@ -9,7 +9,7 @@ Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: theme4w4
+Text Domain: Jiayi-Feng-4w4
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
@@ -1214,6 +1214,12 @@ Liste des blocs de cours par type_de_cours
 
 h1, h2 {
   margin-top: 80px;
+}
+
+#annonce {
+  background-color: aquamarine;
+  height: 13vh;
+  margin-top: 20px;
 }
 
 /* local carrousel

@@ -1,15 +1,22 @@
 (function(){
   //let bouton = document.getElementById('bout_nouvelles')
   let nouvelles = document.querySelector('.nouvelles section')
+  let annonce = document.getElementById('annonce')
   //console.log(bouton.id)
 
   //bouton.addEventListener('mousedown', monAjax)
-   window.addEventListener('load', monAjax)
-    function monAjax()
+   window.addEventListener('load', function(){
+    monAjax( monObjJS.URLDomaine + '/wp-json/wp/v2/posts?categories=33', nouvelles)
+    monAjax( monObjJS.URLDomaine + '/wp-json/wp/v2/posts?categories=34', annonce)
+   })
+
+
+    function monAjax(requete, elmDom)
 {
    let maRequete = new XMLHttpRequest();
    console.log(maRequete)
-   maRequete.open('GET', monObjJS.URLDomaine + '/wp-json/wp/v2/posts?categories=33');
+   maRequete.open('GET', requete);
+
    maRequete.onload = function () {
        console.log(maRequete)
        if (maRequete.status >= 200 && maRequete.status < 400) {
@@ -19,7 +26,8 @@
                 chaine += '<h2>' + elm.title.rendered+ '</h2>'
                 chaine += elm.content.rendered
            }
-           nouvelles.innerHTML = chaine;
+           elmDom.innerHTML = chaine;
+
         }else {
            console.log('La connexion est faite mais il y a une erreur')
        }
@@ -39,7 +47,7 @@ bouton_ajoute.addEventListener('mousedown', function(){
       "title": document.querySelector('.admin-rapid [name="title"]').value,
       "content":document.querySelector('.admin-rapid [name="content"]').value,
       "status": "publish",
-      "categories" : [33]
+      "categories" : [34]
 
   }
 
