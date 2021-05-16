@@ -67,10 +67,10 @@ get_header();
      		Formulaire d'ajout d'un artcle de catégorie « Nouvelles »   -->
 			 <?PHP if (current_user_can('administrator')) : ?>
             <section class="admin-rapid">
-                <h3>Ajouter un article de catégorie « Nouvelles »</h3>
+                <h3>Ajouter une annonce</h3>
                 <input class='title' type="text" name="title" placeholder="Titre">
                 <textarea class="content" name="content" placeholder="Contenu" ></textarea>
-                <button class='bout' id='bout-rapide'>Créer une Nouvelle</button>
+                <button class='bout' id='bout-rapide'>Créer une Annonce</button>
             </section>
 			<?php endif ?>
 

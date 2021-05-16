@@ -1,15 +1,14 @@
 .site-footer{
     
-    background-color: skyblue;
     display: flex;
     flex-direction: column;
-
+    width: 100%;
     section{
-        flex-direction: column;
+       
          float: right;
          justify-content: center;
          text-align: center;
-         padding-right:20%;
+         padding-right: 27%;
         
     }
 

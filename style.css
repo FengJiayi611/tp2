@@ -1115,7 +1115,7 @@ body {
 }
 
 body.home {
-  background-color: #fff;
+  background-color: white;
   height: 400vh;
   width: 100vw;
   overflow-x: hidden;
@@ -1240,7 +1240,7 @@ h1, h2 {
 }
 
 .carrousel div:nth-of-type(1) {
-  background-color: #00ff37;
+  background-color: #ff9d00;
 }
 
 .carrousel div:nth-of-type(2) {
@@ -1254,7 +1254,7 @@ h1, h2 {
 /* local slider
 --------------------------------------------- */
 .carrousel-2 {
-  width: 300vw;
+  width: 220vw;
   height: 30vh;
   display: flex;
   transition: transform .5s;
@@ -1266,7 +1266,7 @@ h1, h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 34vw;
 }
 
 .carrousel-2 .slide__conteneur .slide {
@@ -1303,7 +1303,7 @@ h1, h2 {
 }
 
 .carrousel-2 .slide__conteneur .slide:nth-of-type(1) {
-  background-color: #00ff37;
+  background-color: #ff9d00;
 }
 
 .carrousel-2 .slide__conteneur .slide:nth-of-type(2) {
@@ -1320,21 +1320,43 @@ h1, h2 {
   width: 100vw;
 }
 
-.ctrl-carrousel .rad-carrousel {
-  display: block;
-  margin: .5rem .8rem .5rem .8rem;
+@media screen and (max-width: 600px) {
+  .carrousel-2 {
+    width: 600vw;
+    height: 30vh;
+    display: flex;
+    transition: transform .5s;
+    transform: translate(0);
+    flex-wrap: nowrap !important;
+  }
+  .carrousel-2 .slide__conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .rad-carrousel {
+    margin: 15px;
+  }
 }
 
-.ctrl-carrousel .rad-carrousel:nth-of-type(4) {
-  display: none;
-}
-
-.ctrl-carrousel .rad-carrousel:nth-of-type(5) {
-  display: none;
-}
-
-.ctrl-carrousel .rad-carrousel:nth-of-type(6) {
-  display: none;
+@media screen and (min-width: 601px) {
+  .rad-carrousel {
+    display: block;
+    margin: .5rem .8rem .5rem .8rem;
+  }
+  .rad-carrousel:nth-of-type(3) {
+    display: none;
+  }
+  .rad-carrousel:nth-of-type(4) {
+    display: none;
+  }
+  .rad-carrousel:nth-of-type(5) {
+    display: none;
+  }
+  .rad-carrousel:nth-of-type(6) {
+    display: none;
+  }
 }
 
 /* local burger
@@ -1540,17 +1562,16 @@ La barre du millieu
 /* local footer
 --------------------------------------------- */
 .site-footer {
-  background-color: skyblue;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .site-footer section {
-  flex-direction: column;
   float: right;
   justify-content: center;
   text-align: center;
-  padding-right: 20%;
+  padding-right: 27%;
 }
 
 /* local page

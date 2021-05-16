@@ -42,6 +42,7 @@
 bouton_ajoute = document.getElementById('bout-rapide')
 bouton_ajoute.addEventListener('mousedown', function(){
 
+    //annonce
   console.log('ajout')
   let = monArticle = {
       "title": document.querySelector('.admin-rapid [name="title"]').value,
