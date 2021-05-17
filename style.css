@@ -752,7 +752,6 @@ textarea {
 
 .main-navigation ul ul li a {
   padding-left: 20px;
-  text-align: right;
 }
 
 .main-navigation ul ul a {
@@ -887,6 +886,12 @@ menu tablet
 .post-navigation .nav-next {
   text-align: end;
   flex: 1 0 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .main-navigation ul ul li a {
+    text-align: right;
+  }
 }
 
 /* Posts and pages
@@ -1223,6 +1228,10 @@ h1, h2 {
   background-color: aquamarine;
   height: 13vh;
   margin-top: 20px;
+}
+
+body {
+  background: linear-gradient(45deg, white 0%, white 0%, white 61%, pink 100%);
 }
 
 /* local carrousel
@@ -1567,7 +1576,6 @@ La barre du millieu
 --------------------------------------------- */
 .site-footer {
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -1576,6 +1584,13 @@ La barre du millieu
   justify-content: center;
   text-align: center;
   padding-right: 27%;
+}
+
+@media screen and (min-width: 601px) {
+  .site-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* local page
