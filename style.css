@@ -1221,13 +1221,21 @@ Liste des blocs de cours par type_de_cours
 }
 
 h1, h2 {
-  margin-top: 80px;
+  margin-top: 55px;
 }
 
 #annonce {
-  background-color: aquamarine;
+  background-color: skyblue;
   height: 13vh;
   margin-top: 20px;
+}
+
+#annonce h2 {
+  color: orangered;
+}
+
+#annonce p {
+  color: #7d550c;
 }
 
 body {
@@ -1252,7 +1260,7 @@ body {
 }
 
 .carrousel div:nth-of-type(1) {
-  background-color: #ff9d00;
+  background-color: #f0c379;
 }
 
 .carrousel div:nth-of-type(2) {
@@ -1315,15 +1323,8 @@ body {
 }
 
 .carrousel-2 .slide__conteneur .slide:nth-of-type(1) {
-  background-color: #ff9d00;
-}
-
-.carrousel-2 .slide__conteneur .slide:nth-of-type(2) {
-  background-color: #ff9d00;
-}
-
-.carrousel-2 .slide__conteneur .slide:nth-of-type(3) {
-  background-color: #00aeff;
+  background-color: lightsalmon;
+  border: 3px solid gainsboro;
 }
 
 .ctrl-carrousel {
@@ -1621,7 +1622,7 @@ La barre du millieu
 }
 
 .entry-header, .page-header {
-  color: blueviolet;
+  color: palevioletred;
 }
 
 .entry-header h1, .page-header h1 {
