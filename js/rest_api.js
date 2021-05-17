@@ -37,7 +37,8 @@
    }
    maRequete.send()
 }
-/* Traitement de l'ajout d'un artcle de catégorie << Nouvelles >>*/
+
+/* Traitement de l'ajout d'un artcle de catégorie << annonce >>*/
 
 bouton_ajoute = document.getElementById('bout-rapide')
 bouton_ajoute.addEventListener('mousedown', function(){

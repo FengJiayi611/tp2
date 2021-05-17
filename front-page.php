@@ -64,7 +64,7 @@ get_header();
 
 		
 			<!-- ///////////////////////////////////////////////////////////////////////////// 
-     		Formulaire d'ajout d'un artcle de catégorie « Nouvelles »   -->
+     		Ajouter une annonce  -->
 			 <?PHP if (current_user_can('administrator')) : ?>
             <section class="admin-rapid">
                 <h3>Ajouter une annonce</h3>
