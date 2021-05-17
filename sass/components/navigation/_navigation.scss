@@ -2,7 +2,6 @@
 	display: block;
 	width: 100vw;
 	
-
 	ul {
 		display: none;
 		position : absolute;
@@ -10,11 +9,11 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
-		background-color: #000;
+		background-color: rgb(84, 126, 143);
 		text-align : left;
 		z-index: 99999;
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 3px 3px rgb(84, 126, 143);
 			float: left;
 			position: absolute;
 			top: 100%;

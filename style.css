@@ -733,14 +733,14 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  background-color: #000;
+  background-color: #547e8f;
   text-align: left;
   z-index: 99999;
   /* fin du sub-menu */
 }
 
 .main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px #547e8f;
   float: left;
   position: absolute;
   top: 100%;
@@ -1587,7 +1587,6 @@ La barre du millieu
 .site-branding .site-title {
   font-family: "Montserrat", monospace;
   font-weight: bold;
-  font-size: clamp(1rem, -0.875rem + 5.333vw, 3rem);
   margin-bottom: 0;
 }
 
@@ -1612,5 +1611,17 @@ La barre du millieu
 
 .entry-header h2, .page-header h2 {
   font-size: 2rm;
+}
+
+@media screen and (max-width: 600px) {
+  .site-branding {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .site-title {
+    font-size: clamp(1rem, -0.875rem + 5.333vw, 3rem);
+  }
 }
 /*# sourceMappingURL=style.css.map */
