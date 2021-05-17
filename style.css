@@ -1306,6 +1306,8 @@ body {
 .carrousel-2 .slide__conteneur .slide img {
   display: block;
   margin: 2%;
+  height: 100px;
+  width: 100px;
 }
 
 .carrousel-2 .slide__conteneur .slide .slide__info {
@@ -1348,12 +1350,18 @@ body {
     align-items: center;
     width: 100vw;
   }
+  .carrousel-2 .slide__conteneur .slide__info {
+    padding-right: 180px;
+  }
   .rad-carrousel {
     margin: 15px;
   }
 }
 
 @media screen and (min-width: 601px) {
+  .slide__info {
+    text-align: center;
+  }
   .rad-carrousel {
     display: block;
     margin: .5rem .8rem .5rem .8rem;
